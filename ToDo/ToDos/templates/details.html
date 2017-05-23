@@ -1,0 +1,25 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'ToDos/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'ToDos/bootstrap.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'ToDos/bootstrap.min.css' %}" />
+<html>
+<head>
+    <title>Detalis</title>
+</head>
+<body>
+<div class="bg">
+<div class="container">
+    <div class="list">
+
+  <br>
+  <h1>Title -{{todo.title}}</h1>
+  <p>Detalis-{{todo.text}}</p>
+  <br>
+  Created on {{todo.created_at}}
+        <p><a class="link" href="/todos">Go Back</a>
+        </p>
+    </div>
+</div>
+</div>
+</body>
+</html>

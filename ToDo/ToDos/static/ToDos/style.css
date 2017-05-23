@@ -1,0 +1,50 @@
+#a{
+    color:green;
+}
+body
+{
+    color: blue;
+}
+.bg
+{
+    background-image: url("../img/bg5.jpg");
+    width: auto;
+    height: 700px;
+}
+.list{
+    margin-top: 5vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    align-content: center;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+    font-size: 2.5vw;
+    color: white;
+
+}
+.list1{
+    margin-top: 5vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    align-content: center;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+    font-size: 2.5vw;
+
+}
+.head1
+{
+    margin-top: 10vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    align-content: center;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+    font-size: 4vw;
+    color: cadetblue;
+
+}
+.link{
+    color: white;
+}
+.link:hover
+{
+    color: black;
+}

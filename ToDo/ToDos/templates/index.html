@@ -1,0 +1,28 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'ToDos/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'ToDos/bootstrap.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'ToDos/bootstrap.min.css' %}" />
+<html>
+<head>
+    <title>
+        ToDo List
+    </title>
+</head>
+<body>
+<div class="bg">
+ <div class="container">
+   <h1 class="head1">TODO List</h1>
+    <div class="list">
+       <ul type="none">
+        {% for todo in todos %}
+         <li><a class="link" href="/todos/details/{{todo.id}}">{{todo.title}}</a>: {{todo.text}}</li>
+         {% endfor %}
+         <p><a class="link" href="add.html">Add More ToDo</a>
+        </ul>
+    </div>
+ </div>
+</div>
+</body>
+</html>
+
+
